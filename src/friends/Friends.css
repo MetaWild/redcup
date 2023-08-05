@@ -1,0 +1,157 @@
+.friend-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.friend-h2 {
+  margin-top: 10px;
+}
+
+.friend-search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.friend-input-container {
+  position: relative;
+}
+
+.friend-input {
+  border: none;
+  border-radius: 20px;
+  background-color: #ffffff;
+  padding: 10px 20px 10px 40px;
+  font-size: 18px;
+  width: 300px;
+}
+
+.friend-input-container .friend-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-image: url("../../../public/images/Friends/Search_Image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.friend-input-container .clear-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-image: url("../../../public/images/Friends/X-Transparent.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.friend-input:focus {
+  outline: none;
+}
+
+.friend-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  z-index: 1;
+  margin-top: 8px;
+}
+
+.friend-dropdown-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.friend-dropdown-menu li {
+  display: flex;
+  padding: 8px 12px;
+  cursor: pointer;
+  align-items: center; /* Added */
+}
+
+.name-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto; /* Added */
+}
+
+.friend-dropdown-menu .friend-username {
+  font-size: 12px;
+  color: #777;
+}
+
+.friend-dropdown-menu li img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 8px;
+}
+
+.friend-dropdown-menu li div {
+  display: flex;
+  flex-direction: column;
+}
+
+.friend-dropdown-menu .friend-name {
+  margin-right: auto; /* Added */
+}
+
+.friend-dropdown-menu .friend-username {
+  font-size: 10px;
+  color: #777;
+  align-self: flex-start;
+  margin-right: auto; /* Added */
+}
+
+.friend-dropdown-menu .add-btn {
+  background-color: #e9e9e9;
+  color: #000000;
+  border: none;
+  border-radius: 15px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.friend-dropdown-menu .add-btn:hover {
+  background-color: #0056b3;
+}
+
+.friend-dropdown-menu .accept-btn {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.friend-dropdown-menu .accept-btn:hover {
+  background-color: #218838;
+}
+
+.friend-dropdown-menu .accept-btn2 {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  padding: 4px 8px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.friend-dropdown-menu .accept-btn2:hover {
+  background-color: #ff5151;
+}
